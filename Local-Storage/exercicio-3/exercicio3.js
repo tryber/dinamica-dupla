@@ -28,3 +28,7 @@ addButton.addEventListener('click', function () {
   li.innerText = inputList.value;
   ol.appendChild(li);
 });
+
+// A chave do local storage deve possuir o nome "exercício-3"
+// ------------------
+// Seu código aqui
