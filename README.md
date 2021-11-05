@@ -20,7 +20,7 @@ Neste projeto, você irá desenvolver a página de cadastro da Escola de Tecnól
 ## Data de entrega
 
 - Projeto em dupla;
-- Data de entrega: `08/11/2021 - 09:00h`
+- Data de entrega: `09/11/2021 - 09:00h`
  
 # Instruções para entregar seu projeto
 
