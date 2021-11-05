@@ -10,20 +10,19 @@ Nesse projeto, verificamos se você é capaz de:
 - Construir páginas que alteram o seu layout de acordo com a orientação da tela;
 
 ---
-## Entregáveis
+# Entregáveis
 
 Você deverá criar um Pull Request neste repositório.
-#### O que deverá ser desenvolvido
+## O que deverá ser desenvolvido
 
 Neste projeto, você irá desenvolver a página de cadastro da Escola de Tecnólogia da Trybe, em que as pessoas estudantes poderão se cadastrar no processo seletivo da escola.
 
-#### Data de entrega
+## Data de entrega
 
 - Projeto em dupla;
 - Data de entrega: `08/11/2021 - 09:00h`
  
-
-#### Instruções para entregar seu projeto
+# Instruções para entregar seu projeto
 
 **Antes de começar a desenvolver:**
 
@@ -69,7 +68,8 @@ Exemplo: `git checkout rod-dinamica-dupla`
    - **Não se preocupe em preencher mais nada por enquanto!**
    - Volte até a página de *Pull Requests* do repositório e confira que o seu *Pull Request* está criado
 
-#### Durante o desenvolvimento
+---
+## Durante o desenvolvimento
 
 - Faça `commits` das alterações que fizer no código regularmente;
 - Lembre-se de sempre após um *(ou alguns)* `commits` atualizar o repositório remoto;
@@ -81,7 +81,7 @@ Exemplo: `git checkout rod-dinamica-dupla`
   v. `git push` *(para enviar o commit para o repositório remoto após o passo anterior).*
 
 ---
-## Como desenvolver
+# Como desenvolver
 
 Você irá desenvolver este projeto em **dupla** e é fundamental que siga as instruções do repositório.
 
@@ -91,7 +91,7 @@ Todos os requisitos tem como base a página a seguir, que representa um formulá
 
 
 ---
-## ESLint e Stylelint
+# ESLint e Stylelint
 
 Para garantir a qualidade do código, vamos utilizar neste projeto os linters `ESLint` e `Stylelint`. Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção! Para rodá-los localmente no projeto, execute os comandos abaixo:
 
@@ -102,11 +102,11 @@ npm run lint:styles
 ⚠️ Os avaliadores só serão rodados localmente ⚠️
 
 ---
-## Requisitos do projeto
+# Requisitos do projeto de revisão
 
 **Caso você faça o downlaod de bibliotecas externas, utilize o diretório *(a partir da raiz do projeto)* para colocar os arquivos *(.css, .js, etc...)* baixados.**
 
-## Lista de requisitos obrigatórios
+# Lista de requisitos obrigatórios
 
 ## **1. Crie uma barra branca na parte superior da página**
 
@@ -190,7 +190,7 @@ Pontos importantes:
 - O botão deverá estar desabilitado caso a checkbox não esteja selecionada;
 - O botão deverá ser habilitado caso a checkbox seja selecionada;
 
-## Lista de requisitos bônus:
+# Lista de requisitos bônus:
 
 ## **11. Faça com que ao clicar no botão 'Enviar', as informações do formulário não sejam submetidas a URL da página**
 
@@ -198,7 +198,7 @@ Ponto importante:
 
 - Ao clicar no botão não deve atualizar o URL;
 
-## Lista de requisitos não avaliativos
+# Lista de requisitos não avaliativos
 
 ## **12. Realize o desenvolvimento da versão mobile do formulário de cadastro Trybe**
 
@@ -209,7 +209,7 @@ Pontos importantes:
 - Deixe sua criatividade fluir!;
 
 ---
-## Depois de terminar o desenvolvimento
+# Depois de terminar o desenvolvimento
 
 **A pessoa dona da branch deve garantir que o último commit nessa branch é seu. Pode ser feita alguma alteração que não afete o cumprimento dos requisitos para realizar o commit.**
 
