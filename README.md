@@ -15,7 +15,7 @@ Nesse projeto, verificamos se você é capaz de:
 Você deverá criar um Pull Request neste repositório.
 #### O que deverá ser desenvolvido
 
-Neste projeto, você irá desenvolver a página de cadastro da Escola de Tecnólogia Trybe, em que as pessoas estudantes poderão se cadastrar no processo seletivo da escola.
+Neste projeto, você irá desenvolver a página de cadastro da Escola de Tecnólogia da Trybe, em que as pessoas estudantes poderão se cadastrar no processo seletivo da escola.
 
 #### Data de entrega
 
@@ -106,6 +106,108 @@ npm run lint:styles
 
 **Caso você faça o downlaod de bibliotecas externas, utilize o diretório *(a partir da raiz do projeto)* para colocar os arquivos *(.css, .js, etc...)* baixados.**
 
+## Lista de requisitos obrigatórios
+
+## **1. Crie uma barra branca na parte superior da página**
+
+Pontos importantes:
+
+- Esta barra deve possuir a classe `header`;
+- A classe `header` deve determinar que o elemento é um flex container;
+- A classe header deve possuir a propriedade: `background-color: rgb(237, 237, 237)`;
+
+## **2. Adicione o logotipo da Trybe com a classe `trybe-header-logo` no canto esquerdo da barra superior**
+
+Pontos importantes:
+
+- Deve existir um elemento `img` com a classe `trybe-header-logo`;
+- O logotipo deve estar alinhado à esquerda dentro da barra;
+- O atributo `src` do logotipo deve apontar para `imgs/trybe-header-logo.svg`;
+
+## **3. Adicione a timeline do processo seletivo com a classe timeline-process**
+
+Pontos importantes:
+
+- Deve existir um elemento `img` com a classe `timeline-process`;
+- A timeline deve estar centralizada no container da esquerda;
+- O atributo `src` da timeline deve apontar para `imgs/trybe-timeline-process.svg`;
+
+## **4. Adicione um formulário no corpo da página, posicionado no lado direito**
+
+Pontos importantes:
+
+- Deve existir um formulário com o id `evaluation-form`;
+- O formulário deve estar inserido na tag `main` do HTML;
+- Tanto o formulário quando o `main` devem ser flex containers;
+- O formulário deve ter uma largura de `380px`;
+
+## **5. Faça com que o formulário do requisito 5 seja um container flex com o eixo principal vertical**
+
+Ponto importante:
+
+- Alinhe o eixo principal dessa classe para ser o eixo vertical;
+
+## **6. Acrescente no formulário os `inputs` de 'Nome:', 'Email:' e 'Senha:'**
+
+Pontos importantes:
+
+- Inputs de '*Nome*', '*Email*' e '*Senha*' deverão ser criados;
+- Os inputs devem possuir os ids `input-name`, `input-email`, `input-senha`;
+- Os inputs deverão conter um placeholder com '*Nome*', '*Email*' e '*Senha*' em seus respectivos campos;
+
+## **7. Crie uma lista de regras para a criação da senha**
+
+Pontos importantes:
+
+- A senha deve possuir um tamanho minimo de 7 caracteres;
+- A senha deve possuir ***OBRIGATORIAMENTE*** uma letra *maiúscula*;
+- A senha deve possuir ***OBRIGATORIAMENTE*** uma letra *minúscula*;
+- A senha deve possuir ***OBRIGATORIAMENTE*** um número;
+- A senha deve possuir ***OBRIGATORIAMENTE*** um caractere especial: `(! @ # $ % ^& * ( ) - _ = + { } ; : , < . >)`;
+
+## **8. Crie um campo de entrada do tipo `checkbox` para que possa se aceitar os termos e acordos**
+
+Pontos importantes:
+
+- Um elemento com o id `label-terms-content` e o texto "*Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.*";
+- O valor (`value`) do campo deve ser: `terms`;
+- O campo de 'checkbox' deve possuir o ID `agreement`;
+- Posicione a label para ficar abaixo da lista de regras;
+- Posicione a checkbox ao lado da label;
+
+## **9. Crie um botão de Enviar para submeter o formulário**
+
+Pontos importantes:
+
+- Um botão do tipo `submit` deverá ser criado;
+- O botão deve possuir o ID `submit-btn`;
+- Deverá conter o texto '*Enviar*';
+
+## **10. Faça com que o botão 'Enviar' seja habilitado somente após a checkbox do requisito 8 ser selecionada**
+
+Pontos importantes:
+
+- O botão deverá estar desabilitado caso a checkbox não esteja selecionada;
+- O botão deverá ser habilitado caso a checkbox seja selecionada;
+
+## Lista de requisitos bônus:
+
+## **11. Faça com que ao clicar no botão 'Enviar', as informações do formulário não sejam submetidas a URL da página**
+
+Ponto importante:
+
+- Ao clicar no botão não deve atualizar o URL;
+
+## Lista de requisitos não avaliativos
+
+## **12. Realize o desenvolvimento da versão mobile do formulário de cadastro Trybe**
+
+Pontos importantes:
+
+- Utilize media queries para inserir breakpoints para telas de diferentes tamanhos;
+- Leve em conta a largura da tela e a experiência do usuário ao reorganizar o layout para dispositivos menores;
+- Deixe sua criatividade fluir!;
+
 ---
 ## Depois de terminar o desenvolvimento
 
@@ -129,3 +231,12 @@ A outra pessoa integrante da dupla deve criar uma nova `branch` a partir da `bra
   - Adicione uma descrição para o *Pull Request*, um título claro que o identifique, e clique no botão verde *"Create pull request"*
   - **Não se preocupe em preencher mais nada por enquanto!**
   - Volte até a página de *Pull Requests* do repositório e confira que o seu *Pull Request* está criado
+
+---
+# Avisos finais
+
+Se sente mais confiante para o projeto do bloco depois dessa revisão?
+Não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
+
+Link: [FORMULÁRIO DE AVALIAÇÃO DE REVISÃO](https://forms.gle/6svqoD5p5bgPbxKz9)
+
