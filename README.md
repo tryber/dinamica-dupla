@@ -190,9 +190,23 @@ Pontos importantes:
 - O botão deverá estar desabilitado caso a checkbox não esteja selecionada;
 - O botão deverá ser habilitado caso a checkbox seja selecionada;
 
+## **11. Faça com que ao ao clicar no botão 'Enviar' as informações sejam salvas no `Local Storage`**
+
+Pontos importantes:
+
+- A chave para salvar no *Local Storage* deve ter a seguinte chave: `user-infos`;
+- O valor dessa chave, deve conter a seguinte estrutura:
+```
+{
+  "nome": "nome-do-usuario",
+  "email": "email-do-usuario",
+}
+```
+- A senha não deve ser salva no *Local Storage*
+
 # Lista de requisitos bônus:
 
-## **11. Faça com que ao clicar no botão 'Enviar', as informações do formulário não sejam submetidas a URL da página**
+## **12. Faça com que ao clicar no botão 'Enviar', as informações do formulário não sejam submetidas a URL da página**
 
 Ponto importante:
 
@@ -200,7 +214,7 @@ Ponto importante:
 
 # Lista de requisitos não avaliativos
 
-## **12. Realize o desenvolvimento da versão mobile do formulário de cadastro Trybe**
+## **13. Realize o desenvolvimento da versão mobile do formulário de cadastro Trybe**
 
 Pontos importantes:
 
