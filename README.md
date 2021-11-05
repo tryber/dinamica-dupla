@@ -197,7 +197,7 @@ Pontos importantes:
 - A chave para salvar no *Local Storage* deve ter a seguinte chave: `user-infos`;
 - O valor dessa chave, deve conter a seguinte estrutura:
 ```
-{
+"usuario" : {
   "nome": "nome-do-usuario",
   "email": "email-do-usuario",
 }
