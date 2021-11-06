@@ -7,4 +7,9 @@
 .header {
   display: flex;
   background-color: rgb(237, 237, 237);
+  padding: 20px;
 }
+
+/* .trybe-header-logo {
+
+} */
