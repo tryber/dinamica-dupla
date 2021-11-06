@@ -6,15 +6,39 @@
 
 .header {
   display: flex;
-  background-color: rgb(237, 237, 237);
+  background-color: white;
+  border: 1px solid rgb(205, 225, 232);
+}
+
+.trybe-header-logo {
+  margin: 10px 0 10px 10px;
 }
 
 main {
   display: flex;
+  flex-direction: column;
 }
 
-#evaluation-form {
-  width: 380px;
-  display: flex;
-  flex-direction: column;
+.img-process-timeline {
+  margin: auto;
+  width: 50%;
+}
+
+.wrapper-main {
+  margin: 0 auto;
+  width: 75%;
+}
+
+/* Form */
+.text-creat-account {
+  font-family: Verdana, Arial, 'Helvetica Neue', Helvetica,sans-serif;
+  font-weight: 700;
+  line-height: 45px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.text-already-have-account {
+  font-family: Verdana, Arial, 'Helvetica Neue', Helvetica,sans-serif;
+  font-size: 10px;
 }
