@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(237, 237,237) ;
+}
+
+.trybe-header-logo {
+    
+}
+
+.timeline-process , aside {
+    display: flex;
+    justify-content: center;
+}
