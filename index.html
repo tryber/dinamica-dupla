@@ -17,12 +17,45 @@
     </div>
     <div class="right-container">
       <form id="evaluation-form">
-        
+        <h1>Crie sua conta</h1>
+        <label class="input-label" for="input-name">Nome: 
+          <input class="input" id="input-name" placeholder="Nome" type="text">
+        </label>
+        <label class="input-label" for="input-email">E-mail: 
+          <input class="input" id="input-email" placeholder="Email" type="email">
+        </label>
+        <label  class="input-label" for="input-senha">Senha: 
+          <input class="input" id="input-senha" placeholder="Senha" type="password">
+        </label>
+        <div class="password-rules">
+          <div class="left-rules">
+            <p class="rule">
+              * A senha deve possuir um tamanho minimo de 7 caracteres;
+            </p>
+            <p class="rule">
+              * A senha deve possuir OBRIGATORIAMENTE uma letra maiúscula;
+            </p>
+            <p class="rule">
+              * A senha deve possuir OBRIGATORIAMENTE uma letra minúscula;
+            </p>
+          </div>
+          <div class="right-rules">
+            <p class="rule">
+              * A senha deve possuir OBRIGATORIAMENTE um número;
+            </p> 
+            <p class="rule">
+              * A senha deve possuir OBRIGATORIAMENTE um caractere especial: (! @ # $ % ^& * ( ) - _ = + { } ; : , < . >);
+            </p>
+          </div>
+        </div>
+        <label id="label-terms-content" class="input-label" for="agreement"> 
+          <input id="agreement" type="checkbox" value="terms">
+          Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.
+        </label>
+        <button id="submit-btn" type="submit">Enviar</button>
       </form>
     </div>
-    
   </main>
-  
   <script src="script.js"></script>
 </body>
 </html>
