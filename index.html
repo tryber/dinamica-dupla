@@ -8,7 +8,41 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">Dupla dinamica</header>
+  <header class="header"><img class="trybe-header-logo" src="./imgs/trybe-header-logo.svg" alt=""></header>
+  <main>
+    <article class="container1">
+      <img class="timeline-process" src="./imgs/trybe-timeline-process.svg" alt="">
+    </article> 
+    <hr>
+      <form action="" id="evaluation-form">
+        <h3>Crie sua conta gratuita</h3>
+        <a href="">Já tenho conta na trybe</a>
+        <div>
+          <label for="input-name">Nome</label>
+          <input type="text" name="name" id="input-name" placeholder="Nome">
+        </div>
+        <div>
+          <label for="input-email">Email</label>
+          <input type="email" name="email" id="input-email" placeholder="Email">
+        </div>
+        <div>
+          <label for="input-senha">Senha</label>
+          <input type="password" name="password" id="input-senha" placeholder="Senha">
+        </div>
+        <div>
+          <ul>
+            <li>A senha deve possuir um tamanho minimo de 7 caracteres;</li>
+            <li>A senha deve possuir OBRIGATORIAMENTE uma letra maiúscula;</li>
+            <li>A senha deve possuir OBRIGATORIAMENTE uma letra minúscula;</li>
+            <li>A senha deve possuir OBRIGATORIAMENTE um número;</li>
+            <li>A senha deve possuir OBRIGATORIAMENTE um caractere especial: (! @ # $ % ^& * ( ) - _ = + { } ; : , < . >);</li>
+          </ul>
+        </div>
+        <div>
+          <label for="agreement" id="label-terms-content"> <input type="checkbox" name="check" id="agreement" value="terms"> "Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.";</label>
+          <button id="submit-btn" type="submit">Enviar</button>
+        </div>
+      </form>
 </body>
 <script src="./script.js"></script>
 </html>
