@@ -30,6 +30,7 @@
   width: 380px;
   margin: 0 auto;
 }
+
 #evaluation-form input {
   padding: 12px;
   border: none;
@@ -37,4 +38,8 @@
   margin-bottom: 20px;
   outline: none;
   border-bottom: 2px solid black;
+}
+
+#checkboxForm {
+  padding: 20px;
 }
