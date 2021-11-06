@@ -28,5 +28,6 @@
   display: flex;
   flex-direction: column;
   width: 380px;
-  background-color: brown;
+  margin: 0 auto;
+
 }
