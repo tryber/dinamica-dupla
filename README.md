@@ -31,7 +31,7 @@ Neste projeto, você irá desenvolver a página de cadastro da Escola de Tecnól
 Exemplo: `git checkout rod-dinamica-dupla`
 
   1. Clone o repositório
-   - `git clone git@github.com:raugusto96/Dinamica-Dupla.git`
+   - `git clone https://github.com/tryber/sd-017-dinamica-dupla`
    - Entre na pasta do repositório que você acabou de clonar:
      - `cd dinamica-dupla`
   2. Instale as dependêcias e inicialize o projeto
