@@ -23,3 +23,9 @@
   display: flex;
   margin: 40px 0;
 }
+
+#evaluation-form {
+  display: flex;
+  width: 380px;
+  background-color: brown;
+}
