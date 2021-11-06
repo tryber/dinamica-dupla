@@ -1,4 +1,31 @@
+*{
+  margin: 0;
+}
+
 .header {
   display: flex;
   background-color: rgb(237, 237, 237);
+}
+
+main {
+  display: flex;
+}
+
+.left-container {
+  text-align: center;
+  flex-grow: 0.5;
+  background-color: blue;
+}
+
+.right-container {
+  text-align: center;
+  flex-grow: 0.5;
+  background-color: pink;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  background-color: green;
 }
