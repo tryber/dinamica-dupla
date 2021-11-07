@@ -1,5 +1,6 @@
 const inputSenha = document.querySelector("#input-senha");
 const botaoForm = document.querySelector("#submit-btn");
+const checkBox = document.querySelector("#agreement");
 function checkCaracter() {
   const valor = inputSenha.value;
   const regex = /\W|_/g;
@@ -16,3 +17,13 @@ function checkCaracter() {
 }
 
 inputSenha.addEventListener("keyup", checkCaracter);
+
+function enviarForm() {
+  if (checkBox) {
+    botaoForm.removeAttribute("disabled");
+  } else {
+    botaoForm.setAttribute("disabled");
+  }
+}
+
+checkBox.addEventListener("click", enviarForm);
