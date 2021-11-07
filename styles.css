@@ -45,3 +45,7 @@ form {
   justify-content: center;
   flex-flow: column;
 }
+
+#label-terms-content , #agreement {
+  cursor: pointer;
+}
