@@ -1,0 +1,130 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(237, 237, 237);
+  
+}
+
+.header img {
+  margin-left: 50px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 380px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+hr {
+  height: 400px;
+}
+
+.container2 {
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.container2 h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.container2 a {
+  color: rgb(72, 177, 72);
+}
+
+.container3, .container4, .container5, .container6 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#input-name, #input-email, #input-senha {
+  height: 30px;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 12px;
+  width: 200px;
+}
+
+#agreement {
+  transform: scale(1.2);
+}
+
+.container7 {
+  display: flex;
+  justify-content: center;
+}
+
+#submit-btn {
+  width: 80px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+#submit-btn:disabled {
+  width: 80px;
+  height: 30px;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+@media screen and (max-width: 850px) {
+  main {
+    flex-direction: column;
+  }
+
+  hr {
+    width: 300px;
+    height: 0;
+    margin: 30px 0;
+  }
+
+  #evaluation-form {
+    width: 90%;
+  } 
+
+  ul {
+    height: 150px;
+  }
+  
+  li {
+    width: 50%;
+  }
+
+  #submit-btn {
+    margin-bottom: 30px;
+  }
+}
