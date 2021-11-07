@@ -35,14 +35,18 @@ main {
   background-color: aquamarine;
   width: 50%;
   height: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .form__content {
-  display: flex;
-  justify-content: center;
+  
 }
 
 form {
   width: 380px;
   background-color: salmon;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
 }
