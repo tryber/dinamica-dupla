@@ -1,17 +1,38 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .header {
   background-color: rgb(237, 237, 237);
+  width: 100vw;
+}
+
+.header__content {
+  width: 85%;
   display: flex;
   justify-content: left;
+  padding: 20px;
 }
 
-.trybe-header_logo {
-  
+.trybe-header-logo {
+  width: 50px;
 }
 
-.steps {
+main {
+  display: flex;
+}
+
+.timeline {
   background-color: lime;
+  text-align: center;
+  width: 50%;
+  height: 50px;
 }
 
 .form {
   background-color: aquamarine;
+  width: 50%;
+  height: 50px;
 }
