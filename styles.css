@@ -39,13 +39,8 @@ main {
   justify-content: center;
 }
 
-.form__content {
-  
-}
-
 form {
   width: 380px;
-  background-color: salmon;
   display: flex;
   justify-content: center;
   flex-flow: column;
