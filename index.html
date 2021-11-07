@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-    <img src="/imgs/trybe-header-logo.svg" alt="" class="trybe-header-logo">
-  </header>
-  <main>
-    <img src="/imgs/trybe-timeline-process.svg" alt="" class="timeline-process">
-    <form action="" id="evaluation-form">
-      <input type="text" placeholder="Nome" id="input-nome">
-      <input type="email" placeholder="Email" id="input-email">
-      <input type="password" placeholder="Senha" id="input-senha" minlength=7 pattern="[A-Z]+[a-z]+[0-9]+[!@#$%^&*()-_=+{};:,<.>]">
-    </form>
-  </main>
-  <footer></footer>
-</body>
-<script src="script.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="/imgs/trybe-header-logo.svg" alt="" class="trybe-header-logo" />
+    </header>
+    <main>
+      <img
+        src="/imgs/trybe-timeline-process.svg"
+        alt=""
+        class="timeline-process"
+      />
+      <form action="" id="evaluation-form">
+        <input type="text" placeholder="Nome" id="input-nome" />
+        <input type="email" placeholder="Email" id="input-email" />
+        <input
+          type="password"
+          placeholder="Senha"
+          id="input-senha"
+          minlength="7"
+          pattern="[A-Z]+[a-z]+[0-9]+[!@#$%^&*()-_=+{};:,<.>]"
+        />
+        <ul>
+          <li>A senha deve possuir um tamanho minimo de 7 caracteres;</li>
+          <li>A senha deve possuir uma letra *maiúscula*;
+          </li>
+          <li>A senha deve possuir uma letra *minúscula*;
+          </li>
+          <li>A senha deve possuir um número;</li>
+          <li>A senha deve possuir  um caractere especial: `(! @ # $ % ^& * ( ) - _ = + { } ; : , < . >)`;
+          </li>
+        </ul>
+        <input type="checkbox" id="agreement" value="terms"/>
+        <label for="label-terms-content" id="label-terms-content">Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.</label>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
 </html>
