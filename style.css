@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(237, 237, 237);
+  height: 45px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.trybe-header-logo {
+  margin: 2px;
+  padding: 2px;
+}
+
+main {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left-container {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.timeline-process{
+  margin: 5px;
+  padding: 5px;
+}
+
+.right-container {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+#evaluation-form {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  background-color: rgb(237, 237, 237);
+}
+
+#evaluation-form h1 {
+  color: grey;
+  margin-top: 50px;
+}
+
+.input-label {
+  font-size: 20px;
+  margin: 20px;
+  text-align: left;
+  color: grey;
+}
+
+.input {
+  margin: 5px;
+  font-size: 15px;
+  height: 20px;
+  border: 0;
+  border-bottom: 1px solid gray;
+  background-color: rgb(237, 237, 237);
+  width: 200px;
+}
+
+.password-rules {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-rules{
+  flex-basis: 50%;
+}
+
+.left-rules{
+  flex-basis: 50%;
+}
+
+.rule {
+  color: grey;
+  font-size: 12px;
+  text-align: left;
+  padding: 2px;
+  margin: 5px;
+}
+
+#label-terms-content{
+  font-size: 14px;
+  text-align: justify;
+}
+
+#submit-btn {
+  flex: 1;
+  font-size: 15px;
+  border: rgb(42, 209, 159) 1px solid;
+  border-radius: 2em;
+  color: rgb(42, 209, 159);
+  margin: 2px;
+  padding: 10px 2px;
+}
+
+#submit-btn:hover {
+  background-color: rgb(42, 209, 159);
+  color: rgb(237, 237, 237); 
+}
+
