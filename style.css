@@ -7,3 +7,12 @@
 .header {
   background-color: rgb(237, 237, 237);
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 380px;
+}
