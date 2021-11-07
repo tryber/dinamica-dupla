@@ -1,4 +1,13 @@
 const btnSubmit = document.querySelector('.form__submit');
+const btnCheck = document.querySelector('#agreement');
+btnSubmit.disabled = true;
+btnCheck.addEventListener('click', () => {
+  if (btnCheck.checked === true) {
+    btnSubmit.disabled = false;
+  } else {
+    btnSubmit.disabled = true;
+  }
+});
 
 btnSubmit.addEventListener('click', (event) => {
   event.preventDefault();
