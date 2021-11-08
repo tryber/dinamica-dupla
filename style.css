@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.page-wrapper {
+  background-color: rgb(248, 248, 248);
+}
+
 .header {
   display: flex;
   background-color: white;
@@ -11,7 +15,7 @@
 }
 
 .trybe-header-logo {
-  margin: 10px 0 10px 10px;
+  margin: 0.625em 0 0.625em 0.625em;
 }
 
 main {
@@ -20,8 +24,8 @@ main {
 }
 
 .img-process-timeline {
-  margin: auto;
-  width: 50%;
+  margin: 1.875em 0;
+  width: 100%;
 }
 
 .wrapper-main {
@@ -33,12 +37,62 @@ main {
 .text-creat-account {
   font-family: Verdana, Arial, 'Helvetica Neue', Helvetica,sans-serif;
   font-weight: 700;
-  line-height: 45px;
-  font-size: 30px;
-  margin-bottom: 10px;
+  line-height: 2.18rem;
+  font-size: 1.87rem; 
+  margin-bottom: 0.335em;
 }
 
 .text-already-have-account {
   font-family: Verdana, Arial, 'Helvetica Neue', Helvetica,sans-serif;
-  font-size: 10px;
+  font-size: 0.75rem;
+  color: rgb(53, 182, 145);
+  text-decoration: underline ;
+  margin-bottom: 1.3em;
+}
+
+form {
+  color: rgb(53, 64, 81);
+}
+
+input {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.text-under-label {
+  font-size: 0.81rem;
+  margin: 0.16em 0 0.234em 0px;
+}
+
+li {
+  list-style: none;
+}
+
+ul, .password-requeriments-disappear {
+  display: none;
+}
+
+#label-terms-content {
+  display: flex;
+  flex-direction: row;
+}
+
+#agreement {
+  width: auto;
+}
+
+.text-label-checkbox {
+  margin-left: 0.625em;
+}
+
+.span-text-label  {
+  text-decoration: underline;
+}
+
+#submit-btn {
+margin: 1.5em 0 3em 0;
+padding: 0.38em 41%;
+background-color: rgb(15, 54, 219);
+color: white;
+border-radius: 2px;
 }

@@ -8,61 +8,63 @@
   <title>Dupla Dinâmica</title>
 </head>
 <body>
-  <header class="header">
-    <img src="imgs/trybe-header-logo.svg" alt="logo trybe" class="trybe-header-logo">
-  </header>
+  <div class="page-wrapper">
+    <header class="header">
+      <img src="imgs/trybe-header-logo.svg" alt="logo trybe" class="trybe-header-logo">
+    </header>
 
-  <main>
-    <div class="wrapper-main">
-      <section class="container-left">
-        <img src="imgs/trybe-timeline-process.svg" alt="image timiline process" class="img-process-timeline">
-      </section>
+    <main>
+      <div class="wrapper-main">
+        <section class="container-left">
+          <img src="imgs/trybe-timeline-process.svg" alt="image timiline process" class="img-process-timeline">
+        </section>
 
-      <section class="container-right">
-        <h1 class="text-creat-account">Crie sua conta gratuita</h1>
-        <h3 class="text-already-have-account">Já tenho conta na trybe</h3>
-        <form action="" id="evaluation-form">
-          <!-- Input Nome -->
-          <label for="input-name">Nome</label>
-          <p class="text-under-input">Fique à vontade para usar seu nome social</p>
-          <input type="text" id="input-name" name="name">
+        <section class="container-right">
+          <h1 class="text-creat-account">Crie sua conta gratuita</h1>
+          <h3 class="text-already-have-account">Já tenho conta na trybe</h3>
+          <form action="" id="evaluation-form">
+            <!-- Input Nome -->
+            <label for="input-name">Nome</label>
+            <p class="text-under-label">Fique à vontade para usar seu nome social</p>
+            <input type="text" id="input-name" name="name" placeholder="Ada Lovelace"><br><br>
 
-            <!-- Input Email -->
-            <label for="input-email">Nome</label>
-            <p class="text-under-input">Escolha um e-mail que consulte diariamente</p>
-            <input type="email" id="input-email" name="emai">
+              <!-- Input Email -->
+              <label for="input-email">E-mail</label>
+              <p class="text-under-label">Escolha um e-mail que consulte diariamente</p>
+              <input type="email" id="input-email" name="emai" placeholder="ada.lovelace@betrybe.com"><br><br>
 
-              <!-- Input Senha -->
-          <label for="input-senha">Nome</label>
-          <p class="text-under-input">Defina uma senha forte, os requisitos abaixo vao ajudar você</p>
-          <input type="password" id="input-senha" name="password">
+                <!-- Input Senha -->
+            <label for="input-senha">Senha</label>
+            <p class="text-under-label">Defina uma senha forte.<span class="password-requeriments-disappear">os requisitos abaixo vao ajudar você</span></p>
+            <input type="password" id="input-senha" name="password" placeholder="sua senha" class=".lastchild"><br><br>
+            
+            <section class="password-requeriments-container-left">
+              <ul class="password-list-left">
+                <li>mínimo de 8 caracteres</li>
+                <li>uma letra maiúscula</li>
+                <li>uma letra minúscula</li>
+              </ul>
+            </section>
 
-          <section class="password-requeriments-container-left">
-            <ul class="password-list-left">
-              <li>mínimo de 8 caracteres</li>
-              <li>uma letra maiúscula</li>
-              <li>uma letra minúscula</li>
-            </ul>
-          </section>
+            <section class="password-requeriments-container-right">
+              <ul class="password-list-right">
+                <li>um número</li>
+                <li>um dos caracteres especiais:
+                  ! @ # $ % ^& * ( ) - _ = + { } ; : , < . > </li>
+              </ul>
+            </section>
 
-          <section class="password-requeriments-container-right">
-            <ul class="password-list-right">
-              <li>um número</li>
-              <li>um dos caracteres especiais:
-                ! @ # $ % ^& * ( ) - _ = + { } ; : , < . > </li>
-            </ul>
-          </section>
+            <section id='label-terms-content'>
+              <input type="checkbox" id="agreement" name="terms" value="terms">
+              <label for="agreement" class="text-label-checkbox"> Eu li e estou de acordo com os <span class="span-text-label">Termos de Uso</span> e a <span class="span-text-label">Política de Privacidade</span> da Trybe.</label>
+            </section>
+            <button type="submit" id="submit-btn">Criar Conta</button>
+          </form>
+        </section>
+      </div> <!-- Fim da div wrapper main  -->
+    </main>
 
-          <section id='label-terms-content'>
-            <input type="checkbox" id="agreement" name="terms" value="terms">
-            <label for="agreement"> Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.</label>
-          </section>
-          <button type="submit" id="dubmit-btn">Enviar</button>
-        </form>
-      </section>
-    </div> <!-- Fim da div wrapper main  -->
-  </main>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
+  </div>
 </body>
 </html>
