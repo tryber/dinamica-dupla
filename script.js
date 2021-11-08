@@ -1,7 +1,5 @@
 const input = document.getElementById('agreement');
 
-const verficacao = input.checked;
-
 const btn = document.getElementById('btn');
 
 input.addEventListener('click', () => {
