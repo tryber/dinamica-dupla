@@ -27,3 +27,14 @@ function enviarForm() {
 }
 
 checkBox.addEventListener("click", enviarForm);
+
+botaoForm.addEventListener("click", (event) => {
+  event.preventDefault();
+  const nome = document.querySelector("#input-name");
+  const email = document.querySelector("#input-email");
+  const usuario = {
+    nome: nome.value,
+    email: email.value,
+  };
+  localStorage.setItem("submit-btn", JSON.stringify(usuario));
+});
