@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    justify-content: center
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(237, 237,237) ;
+}
+
+.trybe-header-logo {
+    
+}
+
+.timeline-process , aside {
+    display: flex;
+    
+}
+
+#evaluation-form {
+    width: 380px;
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+
+
+  
+}
+#evaluation-form input  {
+ margin: 40px;
+ padding: 10px;
+ border: none;
+border-bottom: 1px solid black;
+
+
+}
+
+
+
+
+hr {
+    margin: 50px;
+    width: 1px;
+    background-color: royalblue;
+}
