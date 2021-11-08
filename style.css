@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body{
+  margin: 0 auto;
+}
+
+.wrapper-main {
+  max-width: 320px;
+}
+
 .page-wrapper {
   background-color: rgb(248, 248, 248);
 }
@@ -24,8 +32,10 @@ main {
 }
 
 .img-process-timeline {
-  margin: 1.875em 0;
+  margin: 1.875em auto;
   width: 100%;
+  max-width: 320px;
+
 }
 
 .wrapper-main {
@@ -56,8 +66,10 @@ form {
 
 input {
   width: 100%;
+  max-width: 320px;
   padding-bottom: 1.5em;
   position: relative;
+  
 }
 
 input::placeholder {
@@ -101,6 +113,8 @@ ul, .password-requeriments-disappear {
 }
 
 #submit-btn {
+width: 100%;
+max-width: 320px;
 margin: 1.5em 0 3em 0;
 padding: 0.8em 41%;
 background-color: rgba(0,59,229);
@@ -109,4 +123,9 @@ border-radius: 4px;
 border-style: none;
 font-size: 0.8rem;
 font-weight: 400;
+}
+
+@media screen and (min-width: 400px) {
+
+
 }
