@@ -56,12 +56,22 @@ form {
 
 input {
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 1.5em;
+  position: relative;
+}
+
+input::placeholder {
+  color: rgb(219, 222, 228);
+  font-size: 1em;
+  position: absolute;
+  top: 10px;
+  left: 15px;
 }
 
 .text-under-label {
   font-size: 0.81rem;
   margin: 0.16em 0 0.234em 0px;
+  font-style: italic;
 }
 
 li {
@@ -83,6 +93,7 @@ ul, .password-requeriments-disappear {
 
 .text-label-checkbox {
   margin-left: 0.625em;
+  font-size: 1.1rem;
 }
 
 .span-text-label  {
@@ -91,8 +102,11 @@ ul, .password-requeriments-disappear {
 
 #submit-btn {
 margin: 1.5em 0 3em 0;
-padding: 0.38em 41%;
-background-color: rgb(15, 54, 219);
+padding: 0.8em 41%;
+background-color: rgba(0,59,229);
 color: white;
-border-radius: 2px;
+border-radius: 4px;
+border-style: none;
+font-size: 0.8rem;
+font-weight: 400;
 }
