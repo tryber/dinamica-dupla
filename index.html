@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dinâmica em dupla</title>
+</head>
+<body>
+  <header class="header">
+    <img src="imgs/trybe-header-logo.svg" class="trybe-header-logo" alt="">
+  </header>
+  <main>
+    <img src="imgs/trybe-timeline-process.svg" class="timeline-process" alt="">
+    <form action="" id="evaluation-form">
+      <label for="input-name">Nome:</label>
+      <input type="text" id="input-name" placeholder= 'Nome'>
+      <label for="input-email">Email::</label>
+      <input type="email" id="input-email" placeholder="Email">
+      <label for="input-senha">Senha:</label>
+      <input type="password" id="input-senha" placeholder="Senha">
+      <ul>
+        <li>minimo de 7 caracteres;</li>
+        <li>uma letra maiúscula;</li>
+        <li>uma letra maiúscula;</li>
+        <li>um número;</li>
+        <li>um caractere especial: (! @ # $ % ^& * ( ) - _ = + { } ; : , < . >);</li>
+      </ul>
+      <input value="terms" type="checkbox" id="agreement">
+      <label for="agreement" id="label-terms-content">Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.</label>
+      <button type="submit" id="submit-btn" disabled>Enviar</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
