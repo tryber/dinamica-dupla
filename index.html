@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Dinamica Dupla</title>
+</head>
+<body>
+
+  <header>
+    <section class="header">
+      <div class="header__content">
+        <img src="imgs/trybe-header-logo.svg" alt="Logo Trybe" class="trybe-header-logo">
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="timeline">
+      <div class="timeline__content">
+        <img src="imgs/trybe-timeline-process.svg" alt="Timeline process" class="timeline-process">
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="form__content">
+        <h1 class="form__title">Crie sua conta gratuita</h1>
+        <p class="form__subtitle"><a href="#">Já tenho conta na trybe</a></p>
+        <form action="#" id="evaluation-form">
+
+          <label for="input-name" class="form__label">Nome:</label>
+          <p class="form__text">Fique à vontade para usar seu nome social</p>
+          <input type="text" class="form__input" id="input-name" autocomplete="off" required>
+
+          <label for="input-email" class="form__label">Email:</label>
+          <p class="form__text">Escolha um email que consulte diariamente</p>
+          <input type="text" class="form__input" id="input-email" autocomplete="off" required>
+
+          <label for="input-senha" class="form__label">Senha:</label>
+          <p class="form__text">Defina uma senha forte, conforme os requisitos abaixo</p>
+          <input type="password" class="form__input" id="input-senha" required>
+
+          <div class="requirements">
+            <ul>
+              <li>mínimo de 8 caracteres</li>
+              <li>uma letra maiúscula</li>
+              <li>uma letra minúscula</li>
+              <li>um número</li>
+              <li>um dos caracteres especiais: ! @ # $ % ^& * ( ) - _ = + { } ; : , < . ></li>
+            </ul>
+          </div>
+
+          <label for="agreement" class="form__label" id="label-terms-content" value="terms"><input type="checkbox" name="checkbox" id="agreement"> Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.</label>
+
+          <button type="submit" class="form__submit" id="submit-btn">Enviar</button>
+
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
