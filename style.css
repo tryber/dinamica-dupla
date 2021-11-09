@@ -6,6 +6,8 @@
 
 body{
   margin: 0 auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .page-wrapper {
@@ -240,6 +242,9 @@ font-weight: 400;
 }
 
 @media screen and (min-width: 1024px) {
+  .container-right {
+    margin-bottom: 1em;
+  }
   .text-creat-account {
      font-size: 1.79rem; 
    }
@@ -273,7 +278,7 @@ font-weight: 400;
   #submit-btn {
     width: 50%;
     max-width: 50%;
-    margin: 1.5em 0 0em 0;
+    margin: 1.5em 0 1em 0;
     padding: 0.8em 21%;
     background-color: rgba(0,59,229);
     color: rgb(191, 212, 244);
