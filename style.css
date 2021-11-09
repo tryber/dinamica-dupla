@@ -168,8 +168,54 @@ font-weight: 400;
    .wrapper-main {
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
+     justify-content: space-evenly;
+     width: 90%;
    }
+
+   .vertical-line {
+    border-left: 2px solid rgb(142, 149, 159);
+    height: 667px;
+   }
+
+   .container-right {
+    width: 40%;
+    text-align: center;
+    margin-top: 2em;
   }
+  
+  ul, .password-requeriments-disappear {
+    display:inline;
+  }
+
+  li {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 0.7rem;
+  }
+
+  .password-requirements-flex{
+    margin-bottom: 1.4em;
+    width: 100%;
+  }
+  }
+
+  .password-list-left {
+    width: 50%;
+    float: left;
+  }
+
+  .password-list-right {
+    width: 50%;
+    float: right;
+    margin-bottom: 1.3em;
+  }
+
+  .spacer {
+ clear: both;
+}
+
+@media screen and (min-width: 1028px) {
+  
+}
   
 }

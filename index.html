@@ -19,6 +19,8 @@
           <img src="imgs/trybe-timeline-process.svg" alt="image timiline process" class="img-process-timeline">
         </section>
 
+      <div class="vertical-line"></div>
+
         <section class="container-right">
           <h1 class="text-creat-account">Crie sua conta gratuita</h1>
           <h3 class="text-already-have-account">Já tenho conta na trybe</h3>
@@ -39,21 +41,25 @@
             <p class="text-under-label">Defina uma senha forte<span class="password-requeriments-disappear">os requisitos abaixo vao ajudar você</span></p>
             <input type="password" id="input-senha" name="password" placeholder="Sua Senha" class=".lastchild"><br><br>
             
-            <section class="password-requeriments-container-left">
-              <ul class="password-list-left">
-                <li>mínimo de 8 caracteres</li>
-                <li>uma letra maiúscula</li>
-                <li>uma letra minúscula</li>
-              </ul>
-            </section>
+            <div class="password-requirements-flex">
+              <section class="password-requeriments-container-left">
+                <ul class="password-list-left">
+                  <li>mínimo de 8 caracteres</li>
+                  <li>uma letra maiúscula</li>
+                  <li>uma letra minúscula</li>
+                </ul>
+              </section>
 
-            <section class="password-requeriments-container-right">
-              <ul class="password-list-right">
-                <li>um número</li>
-                <li>um dos caracteres especiais:
-                  ! @ # $ % ^& * ( ) - _ = + { } ; : , < . > </li>
-              </ul>
-            </section>
+              <section class="password-requeriments-container-right">
+                <ul class="password-list-right">
+                  <li>um número</li>
+                  <li>um dos caracteres especiais: <br>
+                    ! @ # $ % ^& * ( ) - _ = + { } ; : , < . > </li>
+                </ul>
+              </section>
+            </div>
+
+            <div class="spacer"></div>
 
             <section id='label-terms-content'>
               <input type="checkbox" id="agreement" name="terms" value="terms">
