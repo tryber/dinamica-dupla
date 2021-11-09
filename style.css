@@ -11,6 +11,7 @@ main{
 
 #evaluation-form {
     display: flex;
+    flex-direction: column;
     width: 380px;
     height: 380px;
     background-color: rgb(128, 115, 115);
