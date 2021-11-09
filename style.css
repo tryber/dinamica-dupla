@@ -1,0 +1,10 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#evaluation-form {
+    display: flex;
+    width: 380px;
+}
