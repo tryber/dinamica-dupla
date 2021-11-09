@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    background-color: rgb(237, 237, 237);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header img {
+    width: 40px;
+}
+
+.header h1 {
+    color: #333;
+    font-size: 1.9rem;
+    margin-left: 60px;
+}
