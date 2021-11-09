@@ -8,10 +8,6 @@ body{
   margin: 0 auto;
 }
 
-.wrapper-main {
-  max-width: 320px;
-}
-
 .page-wrapper {
   background-color: rgb(248, 248, 248);
 }
@@ -40,6 +36,7 @@ main {
 
 .wrapper-main {
   margin: 0 auto;
+  max-width: 320px;
   width: 75%;
 }
 
@@ -95,8 +92,8 @@ ul, .password-requeriments-disappear {
 }
 
 #label-terms-content {
-  display: flex;
-  flex-direction: row;
+  
+  justify-content: space-between;
 }
 
 #agreement {
@@ -104,7 +101,7 @@ ul, .password-requeriments-disappear {
 }
 
 .text-label-checkbox {
-  margin-left: 0.625em;
+  width: 100%;
   font-size: 1.1rem;
 }
 
@@ -126,13 +123,6 @@ font-weight: 400;
 }
 
 @media screen and (min-width: 640px) {
-  .page-wrapper {
-    width: 640px;
-  }
-
-  main {
-    width: 640px;
-  }
 
   .wrapper-main {
     max-width: 100%;
@@ -151,19 +141,35 @@ font-weight: 400;
 
   .container-right {
     max-width: 100%;
-   margin-left: 2.7em; 
+    text-align: center;
   }
 
-  input {
+  input, #submit-btn, .text-label-checkbox, #label-terms-content{
     max-width: 400px;
   }
 
-  #submit-btn {
-    max-width: 400px;
-    }
+  #label-terms-content {
+    max-width: 100%;
+    text-align: center;
+  }
 
   .text-label-checkbox {
-    max-width: 400px;
-    }
+    font-size: 0.78rem;
+    margin: 0;
+  }
 
+  .teste {
+    max-width: 100%;
+    display: flex;
+    
+  }
+
+  @media screen and (min-width: 768px) {
+   .wrapper-main {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+  }
+  
 }
