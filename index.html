@@ -17,15 +17,23 @@
             <img src="imgs/trybe-timeline-process.svg" alt="cronograma do processo seletivo" class="timeline-process">
         </section>
         <section>
-            <form action="" method="get" id="evaluation-form">
-                <div class="label-terms-content">
-                <label for="agreement">Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.
+            <form action="" method="get" id="evaluation-form">                
+                <div>
+                <input type="text" name="user" id="user">
+                <input type="text" name="email" id="email">
+            </div>
+                <div>
+                <label id="<button type=" for="agreement">
                     <input type="checkbox" value="terms" name="termos" id="agreement">
-
+                    Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.
                 </label>
-                </div>
+                <button type="submit" id="submit-btn">Enviar</button>                
+            </div>
             </form>
         </section>
+        <aside id="demo">
+            
+        </aside>
     </main>
   
   <script src="script.js"></script>    
