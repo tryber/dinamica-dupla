@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <img src="imgs/trybe-header-logo.svg" alt="">
+    <h1>Trybe - Processo seletivo Turma 21, inicío em 01/janeiro/2022</h1>
+    </header>
+    <main>
+        <section>
+            <img src="imgs/trybe-timeline-process.svg" alt="cronograma do processo seletivo" class="timeline-process">
+        </section>
+        <section>
+            <form action="" method="get" id="evaluation-form">
+                <div class="label-terms-content">
+                   <label for="agreement">Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.
+                   <input type="checkbox" value="terms" name="termos" id="agreement">
+
+                   </label>
+                </div>
+                <div>
+                    <label for="input-name">Nome de usuário:</label>
+                    <input type="text" name="nome" id="input-name" placeholder="Nome">
+
+                    <label for="input-email">Email de usuário:</label>
+                    <input type="email" name="email" id="input-email" placeholder="Email">
+
+                    <label for="input-senha">Senha de usuário:</label>
+                    <input type="password" name="senha" id="input-senha" placeholder="Senha" minlength="7" pattern="^(?=.*[A-Z])" >
+                </div>
+                <label id="label-terms-content" for="agreement">
+                    <input type="checkbox" value="terms" name="termos" id="agreement">
+                    Eu li e estou de acordo com os Termos de Uso e a Política de Privacidade da Trybe.
+                </label>
+                <button type="submit" id="submit-btn">Enviar</button>                
+            </div>
+            </form>
+        </section>
+    </main>
+  
+  <script src="script.js"></script>    
+</body>
+</html>
