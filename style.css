@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.page-wrapper {
+  background-color: rgb(248, 248, 248);
+}
+
+.header {
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(205, 225, 232);
+}
+
+.trybe-header-logo {
+  margin: 0.625em 0 0.625em 0.625em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-process-timeline {
+  margin: 1.875em auto;
+  width: 100%;
+  max-width: 320px;
+
+}
+
+.wrapper-main {
+  margin: 0 auto;
+  max-width: 320px;
+  width: 75%;
+}
+
+/* Form */
+.text-creat-account {
+  font-family: Verdana, Arial, 'Helvetica Neue', Helvetica,sans-serif;
+  font-weight: 700;
+  line-height: 2.18rem;
+  font-size: 1.87rem; 
+  margin-bottom: 0.335em;
+}
+
+.text-already-have-account {
+  font-family: Verdana, Arial, 'Helvetica Neue', Helvetica,sans-serif;
+  font-size: 0.75rem;
+  color: rgb(53, 182, 145);
+  text-decoration: underline ;
+  margin-bottom: 1.3em;
+}
+
+form {
+  color: rgb(53, 64, 81);
+}
+
+input {
+  width: 100%;
+  max-width: 320px;
+  padding-bottom: 1.5em;
+  position: relative;
+  
+}
+
+input::placeholder {
+  color: rgb(219, 222, 228);
+  font-size: 1em;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.text-under-label {
+  font-size: 0.81rem;
+  margin: 0.16em 0 0.234em 0px;
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+}
+
+ul, .password-requeriments-disappear {
+  display: none;
+}
+
+#label-terms-content {
+  
+  justify-content: space-between;
+}
+
+#agreement {
+  width: auto;
+}
+
+.text-label-checkbox {
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.span-text-label  {
+  text-decoration: underline;
+}
+
+#submit-btn {
+width: 100%;
+max-width: 320px;
+margin: 1.5em 0 3em 0;
+padding: 0.8em 41%;
+background-color: rgba(0,59,229);
+color: white;
+border-radius: 4px;
+border-style: none;
+font-size: 0.8rem;
+font-weight: 400;
+}
+
+@media screen and (min-width: 640px) {
+
+  .wrapper-main {
+    max-width: 100%;
+  }
+
+  .container-left {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .img-process-timeline {
+    margin: 1.875em auto;
+    width: 100%;
+    max-width: 400px;  
+  }
+
+  .container-right {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  input, #submit-btn, .text-label-checkbox, #label-terms-content{
+    max-width: 400px;
+  }
+
+  #label-terms-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+
+
+  .text-label-checkbox {
+    font-size: 0.78rem;
+    margin: 0;
+  }
+
+  .teste {
+    max-width: 100%;
+    display: flex;
+    
+  }
+
+  @media screen and (min-width: 768px) {
+   .wrapper-main {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     width: 90%;
+   }
+   .text-creat-account {
+    text-align: left;
+     font-size: 1.27rem; 
+   }
+
+   .text-under-label, .text-already-have-account, .input-email, .input-senha, .input-name {
+   text-align: left;
+  }
+
+   .vertical-line {
+    border-left: 2px solid rgb(142, 149, 159);
+    height: 664px;
+   }
+
+   .container-right {
+    width: 40%;
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+  ul, .password-requeriments-disappear {
+    display:inline;
+  }
+
+  li {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 0.8rem;
+  }
+
+  .password-requirements-flex{
+    margin-bottom: 1.4em;
+    width: 100%;
+  }
+  }
+
+  .password-list-left {
+    width: 50%;
+    float: left;
+    text-align: left;
+  }
+
+  .password-list-right {
+    width: 50%;
+    float: right;
+    margin-bottom: 1.3em;
+    text-align: right;
+  }
+
+  #submit-btn {
+    width: 100%;
+    max-width: 400px;
+    margin: 1.5em 0 0em 0;
+    padding: 0.8em 21%;
+    background-color: rgba(0,59,229);
+    color: rgb(191, 212, 244);
+    border-radius: 4px;
+    border-style: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    }
+
+  .spacer {
+ clear: both;
+}
+
+@media screen and (min-width: 1024px) {
+  .container-right {
+    margin-bottom: 1em;
+  }
+  .text-creat-account {
+     font-size: 1.79rem; 
+   }
+
+   .text-already-have-account {
+    font-size: 0.9rem;
+
+  }
+
+  .input-email, .input-senha, .input-name {
+    font-size: 1.2rem;
+  }
+
+  .text-under-label {
+    font-size: 1rem;
+  }
+
+  input::placeholder {
+    font-size: 1.2em;
+  }
+
+  li {
+    font-size: 0.96rem;
+  }
+
+  .text-label-checkbox {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  #submit-btn {
+    width: 50%;
+    max-width: 50%;
+    margin: 1.5em 0 1em 0;
+    padding: 0.8em 21%;
+    background-color: rgba(0,59,229);
+    color: rgb(191, 212, 244);
+    border-radius: 4px;
+    border-style: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    }
+}
+  
+}
